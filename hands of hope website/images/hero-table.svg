@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" width="480" height="420" role="img" aria-labelledby="heroTableTitle">
+  <title id="heroTableTitle">Illustration of a shared community table set with warm bowls of food</title>
+
+  <!-- table -->
+  <ellipse cx="240" cy="300" rx="210" ry="90" fill="#8f3620"/>
+  <ellipse cx="240" cy="288" rx="210" ry="90" fill="#b8472b"/>
+  <ellipse cx="240" cy="288" rx="182" ry="76" fill="#c9572f"/>
+
+  <!-- cloth runner -->
+  <path d="M105 260 Q240 220 375 260 L360 300 Q240 270 120 300 Z" fill="#f2e9d6" opacity="0.9"/>
+
+  <!-- steam -->
+  <g stroke="#f2e9d6" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.75">
+    <path d="M180 150c-10 12-10 20 0 32s10 20 0 32"/>
+    <path d="M240 140c-10 12-10 20 0 32s10 20 0 32"/>
+    <path d="M300 150c-10 12-10 20 0 32s10 20 0 32"/>
+  </g>
+
+  <!-- large shared bowl -->
+  <ellipse cx="240" cy="252" rx="58" ry="16" fill="#8f3620"/>
+  <path d="M182 240c0 20 26 34 58 34s58-14 58-34z" fill="#d69a3b"/>
+  <ellipse cx="240" cy="240" rx="58" ry="16" fill="#e7b158"/>
+  <ellipse cx="240" cy="240" rx="44" ry="10" fill="#b8472b"/>
+
+  <!-- left bowl -->
+  <ellipse cx="132" cy="270" rx="34" ry="10" fill="#6c2e1c"/>
+  <path d="M98 262c0 12 15 20 34 20s34-8 34-20z" fill="#16332f"/>
+  <ellipse cx="132" cy="262" rx="34" ry="10" fill="#26645b"/>
+  <ellipse cx="132" cy="262" rx="24" ry="6" fill="#d69a3b"/>
+
+  <!-- right bowl -->
+  <ellipse cx="348" cy="270" rx="34" ry="10" fill="#6c2e1c"/>
+  <path d="M314 262c0 12 15 20 34 20s34-8 34-20z" fill="#16332f"/>
+  <ellipse cx="348" cy="262" rx="34" ry="10" fill="#26645b"/>
+  <ellipse cx="348" cy="262" rx="24" ry="6" fill="#d69a3b"/>
+
+  <!-- bread basket -->
+  <ellipse cx="205" cy="322" rx="26" ry="9" fill="#8f3620"/>
+  <circle cx="196" cy="314" r="12" fill="#e7b158"/>
+  <circle cx="214" cy="316" r="10" fill="#d69a3b"/>
+
+  <!-- mug -->
+  <rect x="288" y="306" width="24" height="20" rx="4" fill="#f2e9d6"/>
+  <path d="M312 310c6 0 6 12 0 12" fill="none" stroke="#f2e9d6" stroke-width="3"/>
+
+  <!-- spoons -->
+  <line x1="180" y1="234" x2="168" y2="212" stroke="#f2e9d6" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="166" cy="207" r="5" fill="#f2e9d6"/>
+  <line x1="300" y1="234" x2="312" y2="212" stroke="#f2e9d6" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="314" cy="207" r="5" fill="#f2e9d6"/>
+</svg>

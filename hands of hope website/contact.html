@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hands of Hope Community Outreach</title>
+      <meta name="description" content="Get in touch with Hands of Hope Community Outreach — find our Braamfontein and Yeoville locations, phone number, and general contact form.">
+  <link rel="icon" href="images/mark-steam.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand">
+        <img src="images/mark-steam.svg" alt="" width="36" height="36">
+        Hands of Hope
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+      <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span class="nav-toggle-icon"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Programmes</a></li>
+        <li><a href="enquiry.html">Get Involved</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <p class="breadcrumb">Home / Contact</p>
+        <h1>We'd love to hear from you</h1>
+      </div>
+    </div>
+
+    <!-- ===== Locations ===== -->
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow">Our Locations</span>
+        <h2>Two branches serving inner-city Johannesburg</h2>
+        <div class="grid-2 mt-2">
+          <div class="card">
+            <h3>Braamfontein Kitchen (Main)</h3>
+            <p>14 Juta Street, Braamfontein, Johannesburg, 2001</p>
+            <p>Open Monday-Friday, 09:00-14:30</p>
+            <p>011 123 4567</p>
+          </div>
+          <div class="card">
+            <h3>Yeoville Skills Centre</h3>
+            <p>58 Raleigh Street, Yeoville, Johannesburg, 2198</p>
+            <p>Open Monday-Friday, 09:00-16:00</p>
+            <p>011 765 4321</p>
+          </div>
+        </div>
+
+        <h3 class="mt-2">Find us on the map</h3>
+        <iframe class="map-frame mt-2"
+          title="Map showing Hands of Hope locations in Braamfontein and Yeoville, Johannesburg"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=28.02%2C-26.20%2C28.07%2C-26.16&layer=mapnik"
+          loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- ===== Contact form ===== -->
+    <section class="section section--teal">
+      <div class="container grid-2">
+        <div>
+          <span class="eyebrow">General Enquiries</span>
+          <h2>Send us a message</h2>
+          <p>For anything not covered by our <a href="enquiry.html">Get Involved</a> form — media requests, general questions, or feedback — use the form below.</p>
+        </div>
+        <div>
+          <form id="contact-form" class="form-card">
+            <div class="form-row">
+              <label for="con-name">Full name</label>
+              <input type="text" id="con-name" name="name" required minlength="2" autocomplete="name">
+            </div>
+            <div class="form-row">
+              <label for="con-email">Email address</label>
+              <input type="email" id="con-email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-row">
+              <label for="con-subject">Message type</label>
+              <select id="con-subject" name="subject" required>
+                <option value="">Please select…</option>
+                <option value="General question">General question</option>
+                <option value="Media/press">Media / press</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Partnership">Partnership enquiry</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="con-message">Message</label>
+              <textarea id="con-message" name="message" required minlength="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p class="form-note">This is a static demo form — sending it will reload the page rather than deliver a message.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Hands of Hope Community Outreach</h4>
+          <p>Restoring dignity through food, skills, and shelter in inner-city Johannesburg since 2015.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Programmes</a></li>
+            <li><a href="enquiry.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@handsofhopejhb.org.za</li>
+            <li>011 123 4567</li>
+            <li>Braamfontein &amp; Yeoville, Johannesburg</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Hands of Hope Community Outreach. NPO registration (hypothetical) 123-456 NPO.</span>
+        <span>Site built as part of a Web Development coursework project.</span>
+      </div>
+    </div>
+  </footer></body>
+</html>

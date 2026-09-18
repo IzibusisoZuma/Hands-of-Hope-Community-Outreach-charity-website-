@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Hands of Hope Community Outreach</title>
+     <meta name="description" content="Enquire about volunteering, sponsoring, or accessing services at Hands of Hope Community Outreach in Johannesburg.">
+  <link rel="icon" href="images/mark-steam.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand">
+        <img src="images/mark-steam.svg" alt="" width="36" height="36">
+        Hands of Hope
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+      <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span class="nav-toggle-icon"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Programmes</a></li>
+        <li><a href="enquiry.html" aria-current="page">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <p class="breadcrumb">Home / Get Involved</p>
+        <h1>Volunteer, sponsor, or ask about our services</h1>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <span class="eyebrow">Enquiry Form</span>
+            <h2>Tell us how you'd like to help</h2>
+            <p>Whether you want to volunteer your time, sponsor a programme, or ask about accessing our services, fill in the form and select the option that fits best. We reply to every enquiry within three working days.</p>
+
+
+            <form id="enquiry-form" class="form-card">
+              <div class="form-row">
+                <label for="enq-name">Full name</label>
+                <input type="text" id="enq-name" name="name" required minlength="2" autocomplete="name">
+              </div>
+
+              <div class="form-row">
+                <label for="enq-email">Email address</label>
+                <input type="email" id="enq-email" name="email" required autocomplete="email">
+              </div>
+
+              <div class="form-row">
+                <label for="enq-phone">Phone number</label>
+                <input type="tel" id="enq-phone" name="phone" placeholder="e.g. 011 123 4567" required pattern="^(\+27|0)[0-9\s]{9,12}$" autocomplete="tel">
+                <p class="form-hint">Format: 011 123 4567 or +27 11 123 4567</p>
+              </div>
+
+              <div class="form-row">
+                <label for="enq-type">I'm enquiring about</label>
+                <select id="enq-type" name="type" required>
+                  <option value="">Please select…</option>
+                  <option value="volunteer">Becoming a volunteer</option>
+                  <option value="sponsor">Becoming a sponsor</option>
+                  <option value="services">Accessing our services</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="enq-message">Your message</label>
+                <textarea id="enq-message" name="message" required minlength="10" placeholder="Tell us a bit more about what you're looking for…"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary">Send enquiry</button>
+              <p class="form-note">This is a static demo form — sending it will reload the page rather than deliver a message.</p>
+            </form>
+          </div>
+
+          <aside>
+            <span class="eyebrow">What happens next</span>
+            <h2>Your options at a glance</h2>
+            <div class="card mt-2">
+              <h3>Volunteer</h3>
+              <p>Join a soup-kitchen shift, mentor a skills-training participant, or support our case workers. No experience required.</p>
+            </div>
+            <div class="card mt-2">
+              <h3>Sponsor</h3>
+              <p>From a once-off donation to an ongoing corporate partnership — every contribution is tracked and reported back to you.</p>
+            </div>
+            <div class="card mt-2">
+              <h3>Access our services</h3>
+              <p>Need a meal, training, or a shelter referral? Select "Accessing our services" and our team will reach out with next steps.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Hands of Hope Community Outreach</h4>
+          <p>Restoring dignity through food, skills, and shelter in inner-city Johannesburg since 2015.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Programmes</a></li>
+            <li><a href="enquiry.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@handsofhopejhb.org.za</li>
+            <li>011 123 4567</li>
+            <li>Braamfontein &amp; Yeoville, Johannesburg</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Hands of Hope Community Outreach. NPO registration (hypothetical) 123-456 NPO.</span>
+        <span>Site built as part of a Web Development coursework project.</span>
+      </div>
+    </div>
+  </footer></body>
+</html>
